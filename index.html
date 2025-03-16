@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Hot Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="all-nav">
+                <div class="logo" id="home"><a href="#home">HotKof<i class="fa-solid fa-mug-hot"></i></a></div>
+                <ul class="nav-items">
+                    <li id="home"><a href="#home">Home</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#order">Order</a></li>
+                    
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero-section">
+            <h1 class="hero">More than coffee, a place to gather</h1>
+            <p class="sub-hero">
+                Relax, unwind, and share a moment over a rich,
+                 flavorful brew.
+            </p>
+            
+        </div>
+
+        <h2 class="cta"><a href="#order">Order now</a></h2>
+        <div class="variety">
+          
+            <div class="varieties first-one">
+                <h3>Chilly and Milky</h3>
+                <img src="images/variety1.jpg" alt="Milky coffee">
+                <p>Choiciest for hot afternoon sip. Keeps you active and 
+                    chilled
+                </p>
+                <p class="cost">Price: <span>$15</span></p>
+                <i class="fa-solid fa-cart-shopping">  Add to cart</i>
+            </div>
+            <div class="varieties second-one">
+                <h3>Hot and Savory</h3>
+                <img src="images/variety2.jpg" alt="Hot coffee">
+                <p>Great for you early morning starter. Works greatly with milk</p>
+                <p class="cost">Price: <span>$15</span></p>
+                <i class="fa-solid fa-cart-shopping">  Add to cart</i>
+            </div>
+            <div class="varieties third-one">
+                <h3>Cappoccino</h3>
+                <img src="images/coffee-hero.jpg" alt="requested coffee type">
+                <p>Our honey themed cappuccino is suited for whatever the condition,you could try it</p>
+                <p class="cost">Price: <span>$25</span></p>
+              
+                <i class="fa-solid fa-cart-shopping">  Add to cart</i>
+            </div>
+
+            <div class="varieties third-one">
+                <h3>Desired combination</h3>
+                <img src="images/variety3.jpg" alt="requested coffee type">
+                <p>Have a favourite combination? Let us know mix it for you</p>
+                <p class="cost">Price: <span>$15-$50</span></p>
+              
+                <i class="fa-solid fa-cart-shopping">  Add to cart</i>
+            </div>
+
+           
+        </div>
+
+
+    </main>
+
+    <h2 class="cta" id="order">Place Your Order</h2>
+    
+<form class="order-form">
+    <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+    </div>
+    <div class="form-group">
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" placeholder="Enter your address" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+    <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+    </div>
+
+    <div class="form-group">
+        <label for="phone">Additional details</label>
+        <input type="text" id="extra" name="extra-info" placeholder="Got extra information? Send it to us here" >
+    </div>
+    <button type="submit" class="submit-btn">Submit Order</button>
+</form>
+
+
+
+
+</body>
+<footer>
+    
+    <h3 class="our-contact" id="contact">Get in touch</h3>
+    <p>Telephone: +0335 987 454</p>
+    <a href="mailto:support@hotkof.com" class="email-link">
+        Contact Support
+    </a>
+    
+    <p><strong>Find Us:</strong> 
+        <a href="https://maps.app.goo.gl/AfmvJ4UwSmuPCr3z5" target="_blank">
+            View on Google Maps
+        </a>
+    </p>
+    
+</footer>
+</html>
